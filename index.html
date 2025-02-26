@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- My Own Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link href="./Document_files/css2" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <h1>A Gaming Obsession</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#Love and Deepspace">Love and Deepspace</a
+            >
+          </li>
+          <li>
+            <a href="#Gameplay">Gameplay</a>
+          </li>
+          <li>
+            <a
+              href="#My Favorite Character">My Favorite Character</a>
+          </li>
+          <li>
+            <a href="#support-me">Support Me!</a>
+          </li>
+          <li>
+            <a href="#Choose-Your-Character"
+              >Choose Your Character</a>
+          </li>
+        </ul>
+     
+        
+      </nav>
+    </header>
+
+    <main>
+      <!-- Konten artikel -->
+      <div id="content">
+        <article id="Love and Deepspace" class="card">
+          <h2>Love and Deepspace</h2>
+          <img
+            src="image/lads.jpeg"
+            alt="Love and Deepspace"
+            class="custom-size"
+            place-item="center"
+          />
+          <p>
+            Dalam game Love and Deepspace, pemain akan berperan sebagai anggota
+            baru dari Hunters Association. Pada pembuatan akun, kamu bisa
+            memilih berbagai tipe wajah, gaya rambut, sampai mengatur nada suara
+            karakter. Meski tidak sekompleks game RPG besar, kustomisasi ini
+            menjadi nilai tambah yang jarang ditemukan di genre otome. Latar
+            cerita dimulai saat manusia menerima pesan misterius dari Deepspace
+            yang memicu serangan makhluk asing bernama Wanderers. Tugasmu yakni
+            melindungi manusia dari ancaman tersebut, sambil jalin hubungan
+            romantis dengan Xavier, Zayne, Rafayel, Sylus, dan Caleb.
+          </p>
+        </article>
+
+        <article id="Gameplay" class="card">
+          <h2>Gameplay</h2>
+          <img
+            src="image/gameplay_1.jpg"
+            alt="Gameplay"
+            class="custom-size-2"
+          />
+          <p>
+            Love and Deepspace adalah game terbaru dari seri Mr. Love yang
+            populer, dikembangkan oleh InFold Pte. Ltd. Game ini menawarkan
+            pengalaman fiksi ilmiah yang imersif di mana cinta dan petualangan
+            di luar angkasa menjadi tema utama. Love and Deepspace adalah game
+            otome 3D pertama, yang menggantikan desain karakter 2D semi-anime
+            dengan pemodelan 3D semi-realistis. Gaya seni 3D ini membuat game
+            ini lebih imersif dan dikaitkan dengan popularitasnya yang meluas.
+            Ini mengikuti pola free-to-play sambil dimonetisasi oleh gacha dan
+            pembelian dalam game seperti paket hadiah, kartu bulanan, dan kostum
+            karakter
+          </p>
+        </article>
+      </div>
+
+      <!-- Konten samping -->
+      <aside>
+        <article id="My Favorite Character" class="profile card">
+          <header>
+            <h3>My Favorite Character</h3>
+
+            <figure>
+              <img src="image/sylus.jpg" class="custom-size-3" />
+            </figure>
+          </header>
+
+          <section>
+            <h4>Sylus</h4>
+
+            <table
+              border=""
+              cellpadding="5"
+              cellspacing="0"
+              class="center-table"
+            >
+              <tbody>
+                <tr>
+                  <th>Age</th>
+                  <td>28</td>
+                </tr>
+                <tr>
+                  <th>Width</th>
+                  <td>190cm</td>
+                </tr>
+                <tr>
+                  <th>Birthday</th>
+                  <td>18 April</td>
+                </tr>
+                <tr>
+                  <th>Job</th>
+                  <td>Pemimpin Onychinus</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </article>
+
+        <article id="support-me" class="card">
+          <h5>Support Me!</h5>
+          <p5>Your support helps us grow! Thank you for being here.</p5>
+        </article>
+
+        <article id="Choose-Your-Character" class="card">
+          <h6>Choose Your Character</h6>
+
+          <div class="slider">
+            <div class="slides" style="transform: translateX(0%)">
+              <img
+                class="slide"
+                src="image/zayne.jpeg"
+                alt="Zayne"
+              />
+              <img
+                class="slide"
+                src="image/xavier.jpeg"
+                alt="Xavier"
+              />
+              <img
+                class="slide"
+                src="image/rafayel.jpeg"
+                alt="Rafayel"
+              />
+              <img 
+              class="slide" 
+              src="image/sylus.jpg" 
+              alt="Sylus" />
+              <img
+                class="slide"
+                src="image/caleb.jpeg"
+                alt="Caleb"
+              />
+            </div>
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+          </div>
+
+          <script src="script.js"></script>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <h5>Contact me for more information</h5>
+        <p5>Jesika Yudiani Putri © 2025, Coding Camp Powered by DBS</p5>
+      </div>
+      <div class="footer">
+        <button id="need-help">Need Help?</button>
+      </div>
+      <div class="popup" id="popup">
+        <div class="overlay"></div>
+        <div class="popup-content">
+          <h2>Haii!</h2>
+          <p>Adakah yang bisa saya bantu?</p>
+          <div class="controls">
+            <button class="close-btn">Close</button>
+          </div>
+        </div>
+      </div>   
+    </footer>
+  </body>
+</html>
