@@ -1,4 +1,4 @@
-body {
+rbody {
   margin: 0;
   padding: 0;
   background: #797f80;
@@ -59,7 +59,7 @@ body {
   font-family: Georgia, serif;
   padding: 20px;
   background-color: #1b232a;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 
